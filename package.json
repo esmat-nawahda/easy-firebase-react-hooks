@@ -1,0 +1,52 @@
+{
+  "name": "easy-firebase-react-hooks",
+  "version": "1.0.5",
+  "author": "Esmat Nawahda <esmat.nawahda@gmail.com>",
+  "keywords": [
+    "firebase",
+    "hooks",
+    "hooks-firebase",
+    "react-firebase",
+    "react",
+    "react-hooks",
+    "react-hooks-firebase",
+    "easy-firebase-react-hooks"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --open --config ./webpack.development.config.js",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
+    "lint": "eslint index.js",
+    "prepublish": "npm run build",
+    "release": "np",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.6.11",
+    "firebase": "7.23.0",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "jest-dom": "^4.0.0",
+    "np": "^6.0.0",
+    "react-testing-library": "^8.0.1",
+    "regenerator-runtime": "^0.13.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
