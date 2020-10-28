@@ -1,7 +1,12 @@
 {
   "name": "easy-firebase-react-hooks",
   "version": "1.0.5",
+  "repository": "git@github.com:esmat-nawahda/easy-firebase-react-hooks.git",
   "author": "Esmat Nawahda <esmat.nawahda@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/esmat-nawahda/easy-firebase-react-hooks/issues"
+  },
+  "homepage": "https://github.com/esmat-nawahda/easy-firebase-react-hooks#readme",
   "keywords": [
     "firebase",
     "hooks",
