@@ -1,6 +1,6 @@
 {
   "name": "easy-firebase-react-hooks",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "repository": "git@github.com:esmat-nawahda/easy-firebase-react-hooks.git",
   "author": "Esmat Nawahda <esmat.nawahda@gmail.com>",
   "bugs": {
@@ -17,12 +17,13 @@
     "react-hooks-firebase",
     "easy-firebase-react-hooks"
   ],
+  "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open --config ./webpack.development.config.js",
     "build": "NODE_ENV=production webpack --config ./webpack.production.config.js",
     "lint": "eslint index.js",
     "prepublish": "npm run build",
-    "release": "np",
+    "release": "npm run build & npm publish",
     "test": "jest"
   },
   "dependencies": {
